@@ -492,10 +492,12 @@ public class Discotienda
         }
         return false;
     }
+    
     // -----------------------------------------------------------------
     // trabajo de estudiantes
     // -----------------------------------------------------------------
-    /**
+
+      /**
     * Generar un informe de discos en la disco tienda
     * @throws  FileNotFoundException - cuando no existe la ruta especifica del archivo a leer o escribir
     */
@@ -579,6 +581,7 @@ public class Discotienda
             return "reporte exitoso";
         }
     }
+
     // -----------------------------------------------------------------
     // Puntos de Extensi�n
     // -----------------------------------------------------------------
@@ -610,6 +613,7 @@ public class Discotienda
             return "valide"+ e.getMessage();
         }
     }
+
 
     /**
      * Es el punto de extensi�n 3
